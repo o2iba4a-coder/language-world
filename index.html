@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Language World — Учим языки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="brand">🌍 Language World</div>
+  <div class="subtitle">Русский • English • O‘zbek</div>
+  <div class="stats">⭐ <span id="xp">0</span> XP · 🔥 <span id="streak">0</span> серия</div>
+</header>
+
+<main>
+  <section class="panel">
+    <h2>Выбери язык</h2>
+    <div class="langs">
+      <button class="lang active" data-lang="ru">🇷🇺 Русский</button>
+      <button class="lang" data-lang="en">🇬🇧 English</button>
+      <button class="lang" data-lang="uz">🇺🇿 O‘zbek</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="tabs">
+      <button class="tab active" data-tab="words">📚 Слова</button>
+      <button class="tab" data-tab="alphabet">🔤 Алфавит</button>
+      <button class="tab" data-tab="quiz">🧠 Тест</button>
+      <button class="tab" data-tab="crossword">🧩 Игра</button>
+      <button class="tab ai" data-tab="ai">🤖 AI Учитель</button>
+    </div>
+    <div id="content"></div>
+  </section>
+</main>
+
+<footer>Language World © 2026 · Первая учебная версия</footer>
+<script src="words.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
